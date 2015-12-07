@@ -32,7 +32,7 @@ class rpio:
 		lista = [4,17,18,21,22,23,24,25,27]
 		lista_v = ["HIGH","LOW"]
 		if pin.numero not in lista:
-			print "ERROREr , PIN NON ESISTENTE"
+			print "ERRORE , PIN NON ESISTENTE"
 		else : 
 			if pin.valore not in lista_v:
 				print "ERRORE , NON ESISTE TALE VALORE PER IL PIN"
